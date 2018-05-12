@@ -1,0 +1,65 @@
+body{
+  background: rgb(255,255,255);
+  background-image: url("images/unicorn.jpg");
+  color: black;
+  font-size: 30px;
+  font-family: Lobster;
+  font-weight: 25;
+  text-align: center;
+}
+h1{
+  font-family: Lobster;
+  color: pink;
+  font-weight: 45;
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  font-family: Lobster;
+  color: orange;
+  font-weight: 35;
+  font-size: 45px;
+  text-align: center;
+}
+
+h3{
+  font-family: Lobster;
+  color:blue;
+  font-size: 30;
+  font-weight: 30;
+  text-align: center;
+
+}
+
+h4{
+  font-family: Helvetica Neue;
+  color: grey;
+  font-weight: 15;
+  font-size: 13px;
+  text-align: center;
+}
+a{
+  color: pink;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  text-decoration: none;
+  color: purple;
+  text-align: center;
+}
+
+ul{
+  list-style-type:none;
+  font-family: Lobster;
+  color:blue;
+  font-size: 30;
+  font-weight: 30;
+  text-align: center
+}
+
+#banner h1{
+  background-size:cover;
+  background-image: url("images/unicorn.jpg");
+  text-shadow: 7px 3px 8px lightblue
+}

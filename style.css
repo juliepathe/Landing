@@ -63,3 +63,20 @@ ul{
   background-image: url("images/unicorn.jpg");
   text-shadow: 7px 3px 8px lightblue
 }
+
+.List {
+  text-align:center;
+  word-spacing: 16;
+  font-family:Helvetica Neue;
+  font-style: medium;
+  color:lightgrey;
+}
+
+.Card {
+  text-align:center;
+  word-spacing:13;
+  font-family:Impact;
+  font-style: bold;
+  color:purple;
+
+}

@@ -1,14 +1,9 @@
 body{
+  margin:0;
   color: black;
   font-size: 30px;
   font-family: Helvetica Neue;
   font-weight: 25;
-  text-align: center;
-}
-
-.Card a:hover{
-  text-decoration: none;
-  color:pink;
   text-align: center;
 }
 
@@ -21,10 +16,16 @@ body{
 
 .List{
   text-align:center;
-  word-spacing: 16;
+  word-spacing: 8;
   font-family:Helvetica Neue;
   font-style: medium;
   color:lightgrey;
+  text-shadow: 2px 1px 3px lightpink;
+  font-size: 24px;
+}
+
+.Card {
+  padding: 50;
 }
 
 .Card h2{
@@ -47,3 +48,17 @@ body{
   font-style: bold;
   text-shadow: 5px 2px 6px yellow;
   color:#8a5ec0;
+}
+
+.Card a:hover{
+  color:pink;
+}
+
+#footer {
+  padding-top: 100;
+}
+
+#footer h4{
+  font-family:Helvetica Neue;
+  font-size: 15px;
+  }

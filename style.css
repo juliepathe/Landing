@@ -1,70 +1,25 @@
 body{
-  background: rgb(255,255,255);
-  background-image: url("images/unicorn.jpg");
   color: black;
   font-size: 30px;
-  font-family: Lobster;
+  font-family: Helvetica Neue;
   font-weight: 25;
   text-align: center;
 }
-h1{
-  font-family: Lobster;
-  color: pink;
-  font-weight: 45;
-  font-size: 50px;
-  text-align: center;
-}
-h2{
-  font-family: Lobster;
-  color: orange;
-  font-weight: 35;
-  font-size: 45px;
-  text-align: center;
-}
 
-h3{
-  font-family: Lobster;
-  color:blue;
-  font-size: 30;
-  font-weight: 30;
-  text-align: center;
-
-}
-
-h4{
-  font-family: Helvetica Neue;
-  color: grey;
-  font-weight: 15;
-  font-size: 13px;
-  text-align: center;
-}
-a{
-  color: pink;
+.Card a:hover{
   text-decoration: none;
+  color:pink;
   text-align: center;
-}
-a:hover{
-  text-decoration: none;
-  color: purple;
-  text-align: center;
-}
-
-ul{
-  list-style-type:none;
-  font-family: Lobster;
-  color:blue;
-  font-size: 30;
-  font-weight: 30;
-  text-align: center
 }
 
 #banner h1{
   background-size:cover;
   background-image: url("images/unicorn.jpg");
-  text-shadow: 7px 3px 8px lightblue
+  text-shadow: 7px 3px 8px lightblue;
+  font-size:60px;
 }
 
-.List {
+.List{
   text-align:center;
   word-spacing: 16;
   font-family:Helvetica Neue;
@@ -72,11 +27,23 @@ ul{
   color:lightgrey;
 }
 
-.Card {
+.Card h2{
+  font-size: 45px;
   text-align:center;
   word-spacing:13;
-  font-family:Impact;
+  font-family:Helvetica Neue;
   font-style: bold;
-  color:purple;
+  text-shadow: 5px 2px 6px yellow;
+  color:#8a5ec0;
 
 }
+
+.Card a{
+  text-decoration:none;
+  font-size: 45px;
+  text-align:center;
+  word-spacing:13;
+  font-family:Helvetica Neue;
+  font-style: bold;
+  text-shadow: 5px 2px 6px yellow;
+  color:#8a5ec0;
